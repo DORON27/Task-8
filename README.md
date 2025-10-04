@@ -30,7 +30,7 @@ CALL GetEmployeesByDept('IT');
 *Input Parameter:* salary-Employeesalary
 *Returns:* Bonus amount
 ```sql
-SELECT emp_name, salary, Calculatebonus(salary)-- for function 
+SELECT emp_name, salary, Calculatebonus(salary)
 AS Bonus
 FROM employees;
 ```
